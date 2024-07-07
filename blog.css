@@ -1,0 +1,40 @@
+h3 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#oneblog {
+    margin: 30px;
+    border: 10px solid rgb(194, 99, 99);
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); /* Corrected box-shadow values */
+}
+
+#twoblog {
+    margin: 30px;
+    border: 10px solid rgb(194, 99, 99);
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); /* Corrected box-shadow values */
+}
+
+#threeblog {
+    margin: 30px;
+    border: 10px solid rgb(194, 99, 99);
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); /* Corrected box-shadow values */
+}
+#h{
+    font-size: 40px;
+    font-weight: 100;
+    font-style: inherit;
+    justify-content: center;
+    text-align:justify;
+}
+.header{
+    background-image: url("IMG_6970.jpg");
+    height: 400px;
+    background-size: cover;
+}

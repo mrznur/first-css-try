@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        p{
+            color: brown;
+        }
+        #odd{
+            color: whitesmoke;
+            background-color: black;
+            font-size: 33px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: inherit;
+        }
+        #even{
+            color:lightslategrey;
+            background-color: rgb(0, 8, 10);
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: oblique;
+        }
+        .barca{
+            color: rgb(255, 0, 0);
+            background-color: blue;
+            font-size: 35px;
+            font-style:unset;
+            font-weight: bolder;
+        }
+        .RMA{
+            color: rgb(0, 0, 0), 0, 0);
+            background-color: rgb(255, 255, 255);
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+
+        }
+        .selector{
+            background-color: darkolivegreen;
+            color: indigo;
+            font-size: larger;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input[type="password"]{
+            color: black;
+        }
+        input[type="text"]{
+            color: black;
+            background-color: whitesmoke;
+        }
+        span{
+            color: yellow;
+        }
+        .name, .password{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <p id="odd">my first line css</p>
+    <p id="even">my second line css</p>
+    <p id="odd">my third line css</p>
+    <p id="even">my fourth line css</p>
+    <p id="odd">my fifth line css</p>
+    <p id="even">my sixth line css</p>
+    <p id="odd">my seventh line css</p>
+    <h3 class="barca">FC <span>Barcelona</span></h3>
+    <h3 class="RMA">Real Madrid CF</h3>
+    <ol class="selector">
+        <li>Element selector</li>
+        <li>ID selector</li>
+        <li>Universal selector</li>
+        <li>Class selector</li>
+    </ol>
+    <ol>
+        <form action="">
+            <p class="name">Enter your name:</p>
+            <input type="text" name="" id=""><br>
+            <p class="password">Enter your password:</p>
+            <input type="password"><br>
+        </form>
+    </ol>
+    
+</body>
+</html>
